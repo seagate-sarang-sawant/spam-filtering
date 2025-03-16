@@ -1,0 +1,27 @@
+[project]
+name = "span-filtering"
+version = "0.1.0"
+description = "A project for filtering spam messages"
+
+
+[tool.poetry]
+name = "spam-filtering"
+version = "0.1.0"
+authors = ["Sarang Sawant <sawant.sarang@gmail.com>"]
+license = { text = "Apache 2.0" }
+readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Machine Learning and IR Models",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

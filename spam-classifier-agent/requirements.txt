@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+nltk
+beautifulsoup4
+requests
+emoji
